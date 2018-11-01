@@ -11,7 +11,6 @@ function onCreateWebpackConfig({ stage, actions }, pluginOptions) {
         rules: [{
           test: test,
           exclude: exclude,
-          enforce: 'pre',
           use: [{
             loader: 'tslint-loader'
           }]
