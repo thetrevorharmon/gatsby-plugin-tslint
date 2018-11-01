@@ -12,16 +12,8 @@ function onCreateWebpackConfig({ actions, loaders }) {
   // if (!jsLoader) {
     // return
   // }
+  // 
 
-  const tslintOptions = {
-    configuration: {
-        rules: {
-            quotemark: [true, 'double']
-        }
-    },
-    emitErrors: true,
-    failOnHint: false,
-  };
 
   actions.setWebpackConfig({
     module: {
@@ -29,8 +21,7 @@ function onCreateWebpackConfig({ actions, loaders }) {
         test: /\.tsx$/,
         enforce: 'pre',
         use: [{
-          loader: 'tslint-loader',
-          options: tslintOptions
+          loader: 'tslint-loader'
         }]
       }]
     }
