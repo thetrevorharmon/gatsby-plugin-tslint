@@ -7,13 +7,13 @@ Provides drop-in support for TSLint. Based off of [gatsby-plugin-eslint](https:/
 
 ## Installation
 
-1. Install the `gatsby-plugin-eslint` plugin:
+1. Install the `gatsby-plugin-tslint` plugin:
 
-    `npm install --save-dev gatsby-plugin-eslint`
+    `npm install --save-dev gatsby-plugin-tslint`
 
     or
 
-    `yarn add --dev gatsby-plugin-eslint`
+    `yarn add --dev gatsby-plugin-tslint`
 
 
 2. Install [TSLint](https://palantir.github.io/tslint/) and [`tslint-loader`](https://github.com/wbuchwalter/tslint-loader):
