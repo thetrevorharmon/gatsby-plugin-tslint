@@ -1,33 +1,25 @@
 const resolvableExtensions = () => [`.ts`, `.tsx`]
 
-function onCreateBabelConfig({ actions }, pluginOptions) {
-  actions.setBabelPreset({
-    name: `@babel/preset-typescript`,
-  })
-}
+function onCreateWebpackConfig({ stage, actions }, pluginOptions) {
 
-function onCreateWebpackConfig({ actions, loaders }) {
-  // const jsLoader = loaders.js()
-
-  // if (!jsLoader) {
-    // return
-  // }
-  // 
-
-
-  actions.setWebpackConfig({
-    module: {
-      rules: [{
-        test: /\.tsx$/,
-        enforce: 'pre',
-        use: [{
-          loader: 'tslint-loader'
+  const test = pluginOptions.test || /\.tsx?$/;
+  const exclude = pluginOptions.exclude || /(node_modules|cache|public)/;
+  
+  if (stage === "develop") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [{
+          test: test,
+          exclude: exclude,
+          enforce: 'pre',
+          use: [{
+            loader: 'tslint-loader'
+          }]
         }]
-      }]
-    }
-  });
+      }
+    });
+  }
 }
 
 exports.resolvableExtensions = resolvableExtensions
-exports.onCreateBabelConfig = onCreateBabelConfig
 exports.onCreateWebpackConfig = onCreateWebpackConfig
