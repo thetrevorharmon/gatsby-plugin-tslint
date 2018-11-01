@@ -1,0 +1,4 @@
+/*.js
+!index.js
+/__tests__
+node_modules
