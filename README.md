@@ -1,3 +1,3 @@
-# gatsby-plugin-type-linter
+# gatsby-plugin-tslint
 
 Provides drop-in support for TSLint.
