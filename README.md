@@ -22,7 +22,7 @@ Provides drop-in support for TSLint. Based off of [gatsby-plugin-eslint](https:/
 
     or
 
-    `yarn add --dev tstlint tslint-loader`
+    `yarn add --dev tslint tslint-loader`
 
 ## Usage
 
