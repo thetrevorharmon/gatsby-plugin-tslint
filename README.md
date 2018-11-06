@@ -62,4 +62,4 @@ module.exports = {
 
 ## Configuring TSLint
 
-This plugin assumes that you use `tslint.json` and `tsconfig.json` files to configure TSLint. Use those files to do all of your configuration.
+This plugin assumes that you use a `tslint.json` file to configure TSLint. Use those files to do all of your configuration.
