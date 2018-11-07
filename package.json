@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-tslint",
   "description": "Adds TSLint support to Gatsby",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Trevor Harmon <thetrevorharmon@gmail.com>",
   "bugs": {
     "url": "https://github.com/tdharmon/gatsby-plugin-tslint/issues"
@@ -27,7 +27,7 @@
     "tslint": "^5.11.0",
     "tslint-loader": "^3.5.4"
   },
-  "repository": "https://github.com/tdharmon/gatbsy-plugin-tslint",
+  "repository": "https://github.com/tdharmon/gatsby-plugin-tslint",
   "scripts": {
     "build": "babel src --out-dir . --ignore **/__tests__",
     "prepare": "cross-env NODE_ENV=production npm run build",
