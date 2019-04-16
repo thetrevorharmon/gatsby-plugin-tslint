@@ -2,9 +2,6 @@
 
 Provides drop-in support for TSLint. Based off of [gatsby-plugin-eslint](https://github.com/mongkuen/gatsby-plugin-eslint).
 
-
-**NOTE:**  This plugin is currently only available for Gatsby v2.
-
 ## Installation
 
 1. Install the `gatsby-plugin-tslint` plugin:
