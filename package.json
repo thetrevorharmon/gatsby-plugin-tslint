@@ -1,16 +1,16 @@
 {
   "name": "gatsby-plugin-tslint",
   "description": "Adds TSLint support to Gatsby",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Trevor Harmon <thetrevorharmon@gmail.com>",
   "bugs": {
     "url": "https://github.com/tdharmon/gatsby-plugin-tslint/issues"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.1.0",
-    "cross-env": "^5.1.4"
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "cross-env": "^5.2.0"
   },
   "homepage": "https://github.com/tdharmon/gatbsy-plugin-tslint#readme",
   "keywords": [
@@ -23,8 +23,8 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "gatsby": ">2.0.0-alpha",
-    "tslint": "^5.11.0",
+    "gatsby": ">2.0.0",
+    "tslint": ">5.11.0",
     "tslint-loader": "^3.5.4"
   },
   "repository": "https://github.com/tdharmon/gatsby-plugin-tslint",
