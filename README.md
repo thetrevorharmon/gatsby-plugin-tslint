@@ -2,6 +2,8 @@
 
 Provides drop-in support for TSLint. Based off of [gatsby-plugin-eslint](https://github.com/mongkuen/gatsby-plugin-eslint).
 
+_Note: you must install Typescript separately, as this package does not list it as one of its dependencies._
+
 ## Installation
 
 1. Install the `gatsby-plugin-tslint` plugin:
