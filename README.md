@@ -1,6 +1,8 @@
+:warning: **This project has been deprecated in favor of [gatsby-plugin-eslint](https://www.gatsbyjs.com/plugins/gatsby-plugin-eslint/).** :warning:
+
 # gatsby-plugin-tslint
 
-Provides drop-in support for TSLint. Based off of [gatsby-plugin-eslint](https://github.com/mongkuen/gatsby-plugin-eslint).
+Provides drop-in support for TSLint. Based off of [gatsby-plugin-eslint](https://www.gatsbyjs.com/plugins/gatsby-plugin-eslint/).
 
 _Note: you must install Typescript separately, as this package does not list it as one of its dependencies._
 
